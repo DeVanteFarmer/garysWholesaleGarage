@@ -1,17 +1,22 @@
 namespace Garage
 {
-    public class Zero : Vehicle // Electric motorcycle
+    public class Zero : Vehicle, IElectricVehicle // Electric car
     {
+        public double CurrentChargePercentage { get; set; }
         public double BatteryKWh { get; set; }
-
-        public Zero()
+         public Zero()
         {
             MainColor = "Gold";
+            Random rand = new Random();
+            CurrentChargePercentage = rand.Next(1,100);
+            BatteryKWh = 100;
         }
 
         public void ChargeBattery()
         {
             // method definition omitted
+            CurrentChargePercentage = 100;
+
         }
 
         public override void Drive()

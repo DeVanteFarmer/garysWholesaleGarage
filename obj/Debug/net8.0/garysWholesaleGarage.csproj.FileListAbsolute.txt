@@ -12,3 +12,4 @@ C:\Users\user\workspace\csharp\garysWholesaleGarage\obj\Debug\net8.0\refint\gary
 C:\Users\user\workspace\csharp\garysWholesaleGarage\obj\Debug\net8.0\garysWholesaleGarage.pdb
 C:\Users\user\workspace\csharp\garysWholesaleGarage\obj\Debug\net8.0\garysWholesaleGarage.genruntimeconfig.cache
 C:\Users\user\workspace\csharp\garysWholesaleGarage\obj\Debug\net8.0\ref\garysWholesaleGarage.dll
+C:\Users\user\workspace\csharp\garysWholesaleGarage\obj\Debug\net8.0\garysWholesaleGarage.sourcelink.json
